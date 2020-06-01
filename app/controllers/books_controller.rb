@@ -6,7 +6,7 @@ class BooksController < ApplicationController
 
 
   def index
-    @books = current_user.books
+    @books = current_user.books.order('created_at DESC').page(params[:page])
   end
 
   def new

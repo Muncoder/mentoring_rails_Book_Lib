@@ -28,7 +28,6 @@ gem 'carrierwave', '~> 2.0'
 
 gem 'kaminari'
 
-
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
